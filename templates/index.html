@@ -1,0 +1,1030 @@
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Rhedge Studio Bootcamp</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="{% static 'img/Logo-19.png'%}" rel="icon">
+  <link href="{% static 'img/Logo-09.png' %}" rel="apple-touch-icon">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css'%}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="{% static 'img/Logo-19.png' %}" alt="">
+        <h1 class="sitename">Rhedge Studios</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#Register">Register</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="company-badge mb-4">
+                <i class="bi bi-gear-fill me-2"></i>
+                Shaping the Innovators of Tomorrow
+
+              </div>
+
+             
+      <h1 class="mb-4">
+        Unlock Your Potential <br>
+        with Rhedge Studio <br>
+        <span class="accent-text">Internship Bootcamp</span>
+      </h1>
+              <p class="mb-4 mb-md-5">
+                Dive into the world of design and development with Rhedge Studio's Bootcamp 
+                for UI/UX designers, graphic designers, frontend and backend developers.
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="{% static 'img/illustration-1.webp' %}" alt="Hero Image" class="img-fluid">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+            <span class="about-meta">MORE ABOUT US</span>
+            <h2 class="about-title">Innovating Through Design & Development</h2>
+            <p class="about-description">At Rhedge Studio, we specialize in creating impactful branding, stunning graphics, and cutting-edge web development solutions.
+
+            </p>
+
+            <div class="row feature-list-wrapper">
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Logo & Brand Identity Design</li>
+        <li><i class="bi bi-check-circle-fill"></i> Stunning Graphic Design</li>
+        <li><i class="bi bi-check-circle-fill"></i> Frontend & Backend Web Development</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Website Management & Optimization</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Creative Solutions for Digital Growth</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Personalized Mentorship for Interns</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-wrapper">
+              <div class="row gy-4">
+                <div class="col-lg-5">
+                  <div class="profile d-flex align-items-center gap-3">
+                    
+                    
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="contact-info d-flex align-items-center gap-2">
+                   
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="{% static 'img/about-5.webp' %}" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="{% static 'img/about-2.webp' %}" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features of the Bootcamp</h2>
+        <p>Discover the exceptional offerings of Rhedge Studio and our Internship Bootcamp</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+    
+        <div class="d-flex justify-content-center">
+    
+          <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+    
+            <li class="nav-item">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                <h4>Our Expertise</h4>
+              </a>
+            </li><!-- End tab nav item -->
+    
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                <h4>What You’ll Learn</h4>
+              </a><!-- End tab nav item -->
+    
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                <h4>Internship Benefits</h4>
+              </a>
+            </li><!-- End tab nav item -->
+    
+          </ul>
+    
+        </div>
+    
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+    
+          <!-- Our Expertise -->
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Our Core Services</h3>
+                <p class="fst-italic">
+                  Rhedge Studio excels in branding, graphic design, and web development, delivering cutting-edge solutions for businesses of all sizes.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Logo & Brand Identity Design</li>
+                  <li><i class="bi bi-check2-all"></i> Stunning Graphics & Visual Design</li>
+                  <li><i class="bi bi-check2-all"></i> Full-stack Web Development (Frontend & Backend)</li>
+                  <li><i class="bi bi-check2-all"></i> Web Management & Optimization</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="{% static 'img/features-illustration-1.webp'%}" alt="Our Expertise" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+    
+          <!-- What You’ll Learn -->
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Key Skills for Interns</h3>
+                <p class="fst-italic">
+                  Our bootcamp equips interns with valuable skills in UI/UX design, frontend and backend development, as well as professional industry practices.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Hands-on UI/UX Design Projects</li>
+                  <li><i class="bi bi-check2-all"></i> Graphic Design for Digital Media</li>
+                  <li><i class="bi bi-check2-all"></i> Building Responsive Websites (React, Vue.js)</li>
+                  <li><i class="bi bi-check2-all"></i> Mastering Backend Development (Node.js, PHP etc.)</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="{% static 'img/features-illustration-2.webp' %}" alt="What You’ll Learn" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+    
+          <!-- Internship Benefits -->
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Internship Benefits</h3>
+                <p class="fst-italic">
+                  As an intern, you’ll get the opportunity to work on real-world projects, receive mentorship from industry professionals, and build a portfolio to kick-start your career.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Personalized Mentorship from Experts</li>
+                  <li><i class="bi bi-check2-all"></i> Build a Portfolio with Real Projects</li>
+                  <li><i class="bi bi-check2-all"></i> Networking Opportunities with Industry Professionals</li>
+                  <li><i class="bi bi-check2-all"></i> Opportunities for Full-time Employment</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="{% static 'img/features-illustration-3.webp' %}" alt="Internship Benefits" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+    
+        </div>
+      </div>
+    </section>
+    
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Features Cards Section -->
+    <section id="features-cards" class="features-cards section">
+
+      <div class="container">
+    
+        <div class="row gy-4">
+    
+          <!-- UI/UX Design Track -->
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-box orange">
+              <i class="bi bi-brush-fill"></i>
+              <h4>UI/UX Design</h4>
+              <p>Learn how to create intuitive and visually appealing user interfaces, focusing on enhancing user experiences across platforms.</p>
+            </div>
+          </div><!-- End Feature Box -->
+    
+          <!-- Graphic Design Track -->
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-box blue">
+              <i class="bi bi-palette"></i>
+              <h4>Graphic Design</h4>
+              <p>Master the art of graphic design, creating stunning visuals for websites, branding, and marketing materials that leave an impact.</p>
+            </div>
+          </div><!-- End Feature Box -->
+    
+          <!-- Frontend Development Track -->
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box green">
+              <i class="bi bi-laptop"></i>
+              <h4>Frontend Development</h4>
+              <p>Gain practical experience building dynamic, responsive websites using modern frontend technologies like HTML, CSS, and JavaScript.</p>
+            </div>
+          </div><!-- End Feature Box -->
+    
+          <!-- Backend Development Track -->
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="feature-box red">
+              <i class="bi bi-code-slash"></i>
+              <h4>Backend Development</h4>
+              <p>Learn server-side programming and database management to build robust, scalable applications with tools like Node.js and PHP.</p>
+            </div>
+          </div><!-- End Feature Box -->
+    
+        </div><!-- End Row -->
+    
+      </div><!-- End Container -->
+    
+    </section><!-- End Section -->
+   
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Cards Section -->
+
+    <!-- Features 2 Section -->
+    <section id="features-2" class="features-2 section">
+      <h1 style="text-align: center;">Structure of the Bootcamp</h1>
+      <br>
+
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-4">
+
+            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3>Foundations:</h3>
+                  <p>Get hands-on with the fundamentals and key tools of your chosen track, whether it's Frontend Development, UI/UX Design, Backend Development, or Graphic Design</p>
+                </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-display"></i>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3>Project Development:</h3>
+                  <p>Apply what you've learned by working on real-world projects that reflect the tasks you'll face in the industry. These projects are designed to enhance your portfolio.
+
+                  </p>
+                </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-feather"></i>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3>Industry Mentorship:</h3>
+                  <p> Gain personalized guidance from industry professionals who will provide insights, feedback, and career advice throughout your learning journey.</p>
+                </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-eye"></i>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+          </div>
+
+        <!---->  <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="phone-mockup text-center">
+              <img src="https://vicesoftware.com/wp-content/uploads/2020/12/21-1024x1024.png" alt="Phone Mockup" class="img-fluid">
+            </div>
+          </div><!-- End Phone Mockup -->
+
+          <div class="col-lg-4">
+
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-code-square"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Core Skills Development:</h3>
+                  <p>Build on the foundational knowledge with more advanced techniques and tools, refining your skills and preparing for real-world challenges.</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-phone"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Capstone Project:</h3>
+                  <p> Create a final, portfolio-worthy project that demonstrates your proficiency and showcases your technical and creative abilities to potential employers.</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-browser-chrome"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Job Placement Assistance: </h3>
+                  <p>Receive tailored support for job search success, including resume building, portfolio development, and interview preparation to ensure you're ready for the next step in your career.</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Features 2 Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row content justify-content-center align-items-center position-relative">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="display-4 mb-4">Ready to Take the Next Step?</h2>
+            <p class="mb-4">Your future in tech starts now. Whether you're interested in UI/UX design, frontend development, backend development, or graphic design, our bootcamp will provide you with the skills and confidence to thrive. 
+              Click below to apply and begin your journey!</p>
+            <a href="#Register" class="btn btn-cta">Apply Now</a>
+          </div>
+
+        
+          <!-- Dot Pattern Groups -->
+          <div class="dots dots-1">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
+              </pattern>
+              <rect width="100" height="100" fill="url(#dot-pattern)"></rect>
+            </svg>
+          </div>
+
+          <div class="dots dots-2">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <pattern id="dot-pattern-2" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
+              </pattern>
+              <rect width="100" height="100" fill="url(#dot-pattern-2)"></rect>
+            </svg>
+          </div>
+
+          <div class="shape shape-3">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path d="M43.3,-57.1C57.4,-46.5,71.1,-32.6,75.3,-16.2C79.5,0.2,74.2,19.1,65.1,35.3C56,51.5,43.1,65,27.4,71.7C11.7,78.4,-6.8,78.3,-23.9,72.4C-41,66.5,-56.7,54.8,-65.4,39.2C-74.1,23.6,-75.8,4,-71.7,-13.2C-67.6,-30.4,-57.7,-45.2,-44.3,-56.1C-30.9,-67,-15.5,-74,0.7,-74.9C16.8,-75.8,33.7,-70.7,43.3,-57.1Z" transform="translate(100 100)"></path>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+
+    </section> <!--Call To Action Section-->
+    
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Hear from Our Graduates</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-5">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-item">
+              <img src="https://ca.slack-edge.com/T04EJMUKEKU-U087244Q9EX-a485eb9d65a2-512" class="testimonial-img" alt="">
+              <h3>Ndifreke Umoh</h3>
+              <h4>Backend-Developer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>The Backend Development internship at Rhedge Studio was a fantastic experience. I worked with databases, APIs, and server-side logic, which gave me a deep understanding of the backend structure of web applications. Thanks to the team’s expert guidance, I now feel prepared to pursue a full-time career in backend development</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-item">
+              <img src="https://ca.slack-edge.com/T04EJMUKEKU-U087XB73LJF-27651656a70c-512" class="testimonial-img" alt="">
+              <h3>Edidiong Umoren</h3>
+              <h4>Frontend Developer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>As a Frontend Development intern, I had the chance to work on exciting projects that challenged me to apply my skills in HTML, CSS, and JavaScript. The team at Rhedge Studio provided great guidance, and I learned industry-best practices that helped me land my first job as a full-time frontend developer. I’m grateful for the opportunity and the mentorship I received!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-item">
+              <img src="https://ca.slack-edge.com/T04EJMUKEKU-U0874MWUQJG-1e0384317a29-512" class="testimonial-img" alt="">
+              <h3>Etimbuk Ekanem</h3>
+              <h4> UI/UX Designer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>My internship at Rhedge Studio was an amazing journey of growth. I gained hands-on experience in designing user-centered interfaces and collaborating with developers. The mentorship and real-world projects helped me improve my skills, and today, I’m confident in my ability to craft intuitive user experiences that truly resonate with users</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+
+          </div><!-- End testimonial item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-item">
+              <img src="https://ca.slack-edge.com/T04EJMUKEKU-U087R1BSAL8-g4b438cac763-512" class="testimonial-img" alt="">
+              <h3>Saviour Patrick</h3>
+              <h4>Frontend Developer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Joining Rhedge Studio as a Frontend Development intern was the perfect stepping stone in my career. I worked on building responsive websites using HTML, CSS, and JavaScript, and learned best practices for frontend development. The internship helped me sharpen my skills and gave me the portfolio projects I needed to land my first full-time role as a frontend developer</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+ <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-item">
+              <img src="https://ca.slack-edge.com/T04EJMUKEKU-U087ET22YD7-c42ae097aee8-512" class="testimonial-img" alt="">
+              <h3>Abiodun Richard</h3>
+              <h4> UI/UX Designer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>The UI/UX internship at Rhedge Studio was an incredible learning experience. I was able to work on real-world projects and gain hands-on experience with wireframing, prototyping, and user research. The team was supportive and provided valuable feedback that helped me grow my design skills. Today, I feel confident in my ability to design seamless user experiences</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-item">
+            <img src="https://ca.slack-edge.com/T04EJMUKEKU-U087D4DL1EX-767dfb4af07f-512" class="testimonial-img" alt="">
+            <h3>Esther Matthew</h3>
+            <h4>Frontend Developer</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Interning as a Frontend Developer at Rhedge Studio gave me the practical experience I needed to kickstart my career. I worked on creating responsive designs and interactive web elements that made a real impact on the company’s projects. The supportive environment and hands-on approach prepared me for a successful career in frontend development</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+  
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>At Rhedge Studio, we offer internships that provide hands-on experience in key areas of design and development. 
+          As an intern, you'll work alongside professionals to gain valuable skills and contribute to real-world projects</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi-brush"></i>
+              </div>
+              <div>
+                <h3>Logo Design & Branding</h3>
+                <p>As an intern in our design team, you'll have the opportunity to assist in creating logos and branding strategies. You’ll learn how to capture the essence of a brand and help develop unique visual identities.</p>
+              
+              </div>
+            </div>
+          </div><!-- End Service Card -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi-display"></i>
+              </div>
+              <div>
+                <h3>Frontend Development</h3>
+                <p>Join our frontend team and work on creating responsive, visually appealing user interfaces. As a frontend intern, you'll learn to build websites and web applications using HTML, CSS, and JavaScript, ensuring a smooth and engaging user experience.</p>
+             
+              </div>
+            </div>
+          </div><!-- End Service Card -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi-gear"></i>
+              </div>
+              <div>
+                <h3>Backend Development</h3>
+                <p>As a backend intern, you'll dive into server-side development. You’ll work with databases, APIs, and server logic, learning how to build the infrastructure that powers web applications, ensuring everything runs smoothly and efficiently.</p>
+
+              </div>
+            </div>
+          </div><!-- End Service Card -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi-pencil-square"></i>
+              </div>
+              <div>
+                <h3>UI/UX Design</h3>
+                <p>As a UI/UX intern, you’ll assist in designing user-friendly interfaces and improving user experiences. You’ll work on research, wireframes, and prototypes to help create seamless and intuitive digital products</p>
+                
+              </div>
+            </div>
+          </div><!-- End Service Card -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Pricing Section -->
+    <section id="Register" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Register Today and Kickstart Your Tech Career!</h2>
+        <p>Ready to take the first step toward transforming your future? Join the Rhedge Studio Bootcamp and gain the skills, knowledge, and experience you need to excel in tech.</p>
+      </div><!-- End Section Title -->
+
+     
+
+     <div style="display: block;">
+          <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+            <h3 style="text-align: center;">Register For The BootCamp</h3>
+            <p style="text-align: center;">Fill out the registration form, choose your track, and start your journey toward a rewarding career today.</p>
+
+ 
+            <form method="post" class="php-reg-form" data-aos="fade-up" data-aos-delay="200">
+              {% csrf_token %}
+
+            <div class="row gy-4">
+              
+              <div class="col-md-6">
+                <input type="text" name="full_name" class="form-control" placeholder="Full Name" required="">
+              </div>
+          
+              <div class="col-md-6">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+              </div>
+          
+              <div class="col-md-6">
+                <input type="tel" class="form-control" name="phone" placeholder="Your Phone Number" required="">
+              </div>
+          
+              <div class="col-md-6">
+                <select class="form-control" name="role" required="">
+                  <option value="">Select Track</option>
+                  <option value="UI/UX Design">UI/UX Design</option>
+                  <option value="Frontend Development">Frontend Development</option>
+                  <option value="Backend Development">Backend Development</option>
+                  <option value="Graphic Design">Graphic Design</option>
+                </select>
+              </div>
+          
+              <div class="col-12">
+                <input type="url" class="form-control" name="portfolio_link" placeholder="Portfolio Link (if any)">
+              </div>
+          
+              <div class="col-12">
+                <textarea class="form-control" name="why_applying" rows="4" placeholder="Why are you applying for this bootcamp?" required=""></textarea>
+              </div>
+          
+              <div class="col-12">
+                <textarea class="form-control" name="contribute" rows="4" placeholder="How will you contribute to Rhedge Studio?" required=""></textarea>
+              </div>
+          
+              <div class="col-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+          
+                <button type="submit" class="btn">Apply Now</button>
+              </div>
+          
+            </div>
+          </form>
+          
+
+
+    </section><!-- /Pricing Section -->
+
+    <!-- Faq Section -->
+    <section class="faq-9 faq section light-background" id="faq">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5" data-aos="fade-up">
+            <h2 class="faq-title">Have a question about the Bootcamp? Check out the FAQ</h2>
+            <p class="faq-description">Our bootcamp is designed to give you hands-on experience through weekly tasks, stand-up meetings, and collaborative team activities. Check out the FAQs below for more details!</p>
+            <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
+              <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </div>
+          
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+            <div class="faq-container">
+          
+              <div class="faq-item faq-active">
+                <h3>How long does the Bootcamp last?</h3>
+                <div class="faq-content">
+                  <p>The bootcamp lasts for 3 weeks, with each week focusing on a different task: individual tasks, team projects, and the final pitch.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+          
+              <div class="faq-item">
+                <h3>What is the daily schedule like?</h3>
+                <div class="faq-content">
+                  <p>Each day starts with a stand-up meeting at 10 AM, where the team discusses progress and outlines goals for the day. You'll also work on individual tasks and collaborate on team projects.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+          
+              <div class="faq-item">
+                <h3>What type of tasks will I work on during the Bootcamp?</h3>
+                <div class="faq-content">
+                  <p>Each week, you'll complete a different type of task: an individual task, a team project, and a final pitch that you’ll present to a panel at the end of the bootcamp.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+          
+              <div class="faq-item">
+                <h3>Is the Bootcamp free of charge?</h3>
+                <div class="faq-content">
+                  <p>Yes, the bootcamp is completely free! We want to make it accessible for everyone interested in gaining valuable skills and experience.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+          
+              <div class="faq-item">
+                <h3>Do I need any prior experience to join the Bootcamp?</h3>
+                <div class="faq-content">
+                  <p>No prior experience is required. Our bootcamp is designed to accommodate beginners, and we will guide you step by step through each task and project.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+          
+            </div><!-- End faq-container -->
+          </div>
+          
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Faq Section -->
+
+    <!-- Call To Action 2 Section -->
+    <section id="call-to-action-2" class="call-to-action-2 section dark-background">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Ready to Take the Next Step?</h3>
+              <p>Your future in tech starts now. Whether you're interested in UI/UX design, frontend development, backend development, or graphic design, our bootcamp will provide you with the skills and confidence to thrive. 
+                Click below to apply and begin your journey!</p>
+              <a class="cta-btn" href="#Register">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action 2 Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Have questions or need more information? Get in touch with us, and we’ll be happy to assist you!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Contact Info</h3>
+              <p>If you have any questions or need further assistance, feel free to reach out to us. We're here to help you with all your inquiries and will respond as soon as possible. 
+                Whether you're interested in our bootcamp, internship opportunities, or services, don't hesitate to contact us!</p>
+
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Our Location</h4>
+                  <p>
+                  59 Edem Akai Street,</p>
+                  <p>Uyo, Nigeria</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+234
+                    806 132 3411</p>
+                  <p>+1 6678 254445 41</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>info@rhedgestudios.com</p>
+                  <p>
+                    rhedgestudios@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+              <p>We’re here to answer all your questions! Whether you’re curious about which track is best for you or need more information about the bootcamp, feel free to reach out. Our team is ready to assist.</p>
+
+              <form action="" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="full_name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="role" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="#" class="logo d-flex align-items-center">
+            <span class="sitename">Rhegde Studios</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>
+              59 Edem Akai Street,</p>
+              <p>Uyo, Nigeria</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+234
+              806 132 3411</span></p>
+            <p><strong>Email:</strong> <span>rhedgestudios@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">UI/UX Design</a></li>
+            <li><a href="#">Frontend Web Development</a></li>
+            <li><a href="#">Backend Development</a></li>
+            <li><a href="#">Logo Branding</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Team
+            <br>(Tech Titans)</h4>
+          <ul>
+            <ul>
+              <li><p>Saviour Patrick- Frontend Intern</p></li>
+              <li><p>Edidiong Umoren- Frontend Intern</p></li>
+              <li><p>Esther Matthew- Frontend Intern</p></li>
+         
+            </ul>
+            
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Team
+            <br>(Tech Titans)</h4>
+          <ul>
+            <li><p>Etimbuk Ekanem- UI/UX Intern</p></li>
+            <li><p>Abiodun Richard- UI/UX Intern</p></li>
+            <li><p>Ndifreke Umoh- Backend Intern</p></li>
+          
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Rhedge Studio</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <p>Powered by Tech Titans @2025</p>
+      
+    
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js'%}"></script>
+
+  <!-- Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
